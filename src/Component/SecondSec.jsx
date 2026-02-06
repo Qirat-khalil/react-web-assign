@@ -22,10 +22,12 @@ const SecondSec = () => {
     ];
 
 
+
+
     return (
         <>
             <Container>
-                <div className=' flex flex-col justify-center items-center py-25 mt-24 px-4'>
+                <div className=' flex flex-col justify-center items-center mt-8 py-8 mb-15 px-4'>
 
                     <div className='py-6'>
                         <Button name="Our Customer" className="bg-[#dcfbfd] rounded text-lg text-[#0CBBC7]" />
@@ -36,30 +38,30 @@ const SecondSec = () => {
                     </h2>
 
                     {/* ✅ Responsive logos */}
-                    <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6  mt-10 mb-10 w-full place-items-center'>
+                    <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6  mt-12 mb-10 w-full place-items-center'>
                         {imgs.map((img, index) => (
-                            <img key={index} src={img.image} alt="logo" className="w-20 md:w-24 object-contain" />
+                            <img key={index} src={img.image} alt="logo" className="w-20 md:w-30 object-contain" />
                         ))}
                     </div>
 
                     {/* ✅ Responsive stats */}
                     <div className='flex flex-col md:flex-row items-center text-center md:text-left mt-10 gap-5'>
 
-                        <p className='text-lg flex items-center gap-2'>
+                        <p className='md:text-md  lg:text-lg flex items-center gap-2'>
                             <Check className='text-[#0CBBC7] w-5 h-5' />
-                            <span className='text-[#0CBBC7] font-bold text-xl'>18281</span>
+                            <span className='text-[#0CBBC7] font-bold md:text-md lg:text-lg'>18281</span>
                             signed up last month
                         </p>
 
-                        <p className='text-lg flex items-center gap-2'>
+                        <p className='md:text-md  lg:text-lg flex items-center gap-2'>
                             <Check className='text-[#0CBBC7] w-5 h-5' />
-                            <span className='text-[#0CBBC7] font-bold text-xl'>GDPR</span> &
-                            <span className='text-[#0CBBC7] font-bold text-xl'>CPA</span> ready
+                            <span className='text-[#0CBBC7] font-bold  md:text-md lg:text-lg'>GDPR</span> &
+                            <span className='text-[#0CBBC7] font-bold  md:text-md lg:text-lg'>CPA</span> ready
                         </p>
 
-                        <p className='text-lg flex items-center gap-2'>
+                        <p className='md:text-md  lg:text-lg flex items-center gap-2'>
                             <Check className='text-[#0CBBC7] w-5 h-5' />
-                            <span className='text-[#0CBBC7] font-bold text-xl'>Leader@G2</span>
+                            <span className='text-[#0CBBC7] font-bold  md:text-md lg:text-lg'>Leader@G2</span>
                             summer
                         </p>
 

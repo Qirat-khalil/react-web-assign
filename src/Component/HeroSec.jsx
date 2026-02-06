@@ -8,11 +8,11 @@ import bgimage from '../assets/bg-img.png'
 const HeroSec = () => {
   return (
     
-    <div className='bg-[#EFFEFF] h-[600px] py-8 ' style={{ backgroundImage: `url(${bgimage})`}}>
+    <div className='bg-[#EFFEFF] bg-cover bg-center bg-no-repeat ' style={{ backgroundImage: `url(${bgimage})`}}>
     <Container>
     
 
-      <div className="max-w-5xl mx-auto text-center py-10 px-4 " >
+      <div className="w-full mx-auto text-center " >
 
         {/* Text area */}
         <div className="flex flex-col items-center gap-6">
@@ -23,8 +23,9 @@ const HeroSec = () => {
             md:text-5xl
             font-bold
             leading-tight
+            mt-10
           ">
-            A powerful online engagement tool that’s intuitive and simple to use.
+            A powerful online engagement  tool <br /> that’s intuitive and simple to use.
           </h1>
 
           <p className="
@@ -48,9 +49,8 @@ const HeroSec = () => {
           src={image}
           alt="hero"
           className="
-            mt-0
+            
             w-full
-           
          max-w-7xl
             mx-auto
           "

@@ -21,7 +21,7 @@ const Button = ({ name, className }) => {
       className={`
         px-8 py-2
         whitespace-nowrap
-        
+        hover:scale-105 transition
         inline-block
         ${className}
       `}
