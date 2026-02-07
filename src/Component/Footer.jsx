@@ -94,7 +94,7 @@ const Footer = () => {
                         className="w-40 h-24 relative rounded-md bg-cover bg-center bg-no-repeat flex justify-center items-center" 
                         style={{ backgroundImage: `url(${footer})` }}
                     >
-                        <p className="absolute inset-0 flex items-center justify-center text-white text-lg text-center p-2 whitespace-nowrap">
+                        <p className="absolute inset-0 flex items-center justify-center text-white text-sm  md:p-0 lg:text-lg text-center p-5 whitespace-nowrap">
                             Made with ❤️ in San Francisco
                         </p>
                     </div>

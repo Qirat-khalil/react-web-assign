@@ -1,3 +1,5 @@
+import ArticleSection from "./Component/Article"
+import ArticleThird from "./Component/ArticleThird"
 import FifthSec from "./Component/FifthSec"
 import Footer from "./Component/Footer"
 import ForthSec from "./Component/ForthSec"
@@ -18,6 +20,8 @@ function App() {
   <SecondSec/>
   <ThirdSec/>
   <ForthSec/>
+  <ArticleSection/>
+  <ArticleThird/>
   <FifthSec/>
   <Footer/>
     </>

@@ -58,12 +58,12 @@ const ForthSec = () => {
         {awards.map((award, index) => (
           <div
             key={index}
-            className={`flex flex-col items-center h-80 justify-center items-center text-center p-6 rounded-lg ${award.bgColor}`}
+            className={`hover:scale-105 transition flex flex-col items-center h-80 justify-center items-center text-center p-6 rounded-lg ${award.bgColor}`}
           >
             <img
               src={award.image}
               alt={award.title}
-              className="w-24 h-24 object-contain mb-4"
+              className="w-24 h-24 object-contain mb-4 "
             />
             <p className="font-medium">{award.title}</p>
           </div>

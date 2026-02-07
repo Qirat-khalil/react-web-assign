@@ -65,7 +65,7 @@ const FifthSec = () => {
       <div className=" mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 ">
         {cards.map((card, idx) => (
           <div key={idx} className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
-            <img src={card.image} alt={card.title} className="w-full h-48 object-cover" />
+            <img src={card.image} alt={card.title} className="w-full h-48 object-cover hover:scale-105 transition" />
             <div className="p-6 flex flex-col flex-1">
               <h3 className="font-semibold text-lg mb-2">{card.title}</h3>
               <p className="text-gray-500 flex-1">{card.desc}</p>

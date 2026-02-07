@@ -49,7 +49,7 @@ const HeroSec = () => {
           src={image}
           alt="hero"
           className="
-            
+            hover:scale-105 transition
             w-full
          max-w-7xl
             mx-auto

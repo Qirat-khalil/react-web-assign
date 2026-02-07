@@ -62,7 +62,7 @@ const ThirdSec = () => {
         <Container>
             <div className='grid grid-cols-1 md:grid-cols-2 mt-12 items-center px-4 md:px-8'>
                 {/* Left */}
-                <div className='text-center'>
+                <div className='text-center md:text-left'>
                     <Button name="Our Promise" className="bg-[#dcfbfd] rounded text-lg text-[#0CBBC7] " />
                     <h3 className='mt-8 font-bold text-4xl'>Tool built for people.</h3>
                     <p className='mt-5 text-lg'>
@@ -74,7 +74,7 @@ const ThirdSec = () => {
 
                 {/* Right */}
                 <div className='flex md:justify-end md:items-end w-full h-auto mt-8 md:mt-0 justify-center items-center'>
-                    <img src={img} alt="tool" className='w-3/4 md:w-full lg:w-[400px] h-auto object-contain' />
+                    <img src={img} alt="tool" className='w-3/4 md:w-full lg:w-[400px] h-auto object-contain hover:scale-105 transition' />
                 </div>
             </div>
         </Container>
