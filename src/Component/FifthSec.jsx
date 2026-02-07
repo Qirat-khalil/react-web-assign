@@ -1,30 +1,8 @@
-// import React from 'react'
-
-// const FifthSec = () => {
-//   return (
-//     <>
-//     </>
-//   )
-// }
-
-// export default FifthSec
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 import React from "react";
-import Button from "./Button"; // assuming you already have a Button component
+import Button from "./Button"; 
 import card1 from '../assets/card1-img.png'
 import card2 from '../assets/card2-img.png'
 import card3 from '../assets/card3-img.png'
@@ -34,7 +12,7 @@ const cards = [
   {
     title: "Excepteur sint occaecat cupidatat non proident",
     desc: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
-    image: card1, // replace with your image path
+    image: card1, 
   },
   {
     title: "Quis nostrum exercitationem ullam corporis suscipit laboriosam",
