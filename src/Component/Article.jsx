@@ -36,6 +36,7 @@ const ArticleSection = () => {
                     </div>
 
                     <div className="flex justify-center pb-4">
+                        
                         <img
                             src={group2}
                             alt=""
